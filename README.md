@@ -1,2 +1,6 @@
 # spiria-tasks
-React take-home assignment
+
+Start in root directory
+
+`cd frontend`
+`npm start`
