@@ -1,0 +1,19 @@
+.add-task-button {
+
+  button {
+    display: flex;
+    justify-content: center;
+    border: 1px $tertiary-color solid;
+    background: $tertiary-color;
+    padding: 0px;
+    height: 100%;
+    width: 67px;
+    color: $secondary-color;
+    cursor: pointer;
+  }
+
+  .inactive {
+    background: $neutral-color;
+    border: 1px $neutral-color solid;
+  }
+}
