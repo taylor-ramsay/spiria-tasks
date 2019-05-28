@@ -1,6 +1,7 @@
 # spiria-tasks
 
-Start in root directory
-
+To begin, start in root directory and run:
 `cd frontend`
+
+And then:
 `npm start`
