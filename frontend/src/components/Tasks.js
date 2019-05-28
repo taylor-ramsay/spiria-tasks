@@ -22,7 +22,7 @@ export default class Tasks extends Component {
   handleInputChange = (event) => {
     this.setState({
       inputValue: event.target.value,
-      addButtonIsActive: true
+      addButtonIsActive: event.target.value.length > 0 ? true : false
     });
   }
 

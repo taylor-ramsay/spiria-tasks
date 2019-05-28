@@ -7,7 +7,7 @@ const TaskInput = (props) => {
       <input
         onChange={(e) => props.onChange(e)}
         value={props.value}
-        onKeyDown={(e)=>{ e.key && e.key === 'Enter' && props.addTask(e) }}
+        onKeyDown={(e) => { e.key && e.key === 'Enter' && props.addTask(e) }}
         placeholder="New Task"
       />
       {props.children}
