@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  min-height: min-content;
   height: 100%;
+  margin-bottom: 40px;
 
   .title {
     img {
