@@ -1,11 +1,15 @@
 .task-input {
   display: flex;
   border: 1px $tertiary-color solid;
-  
+
   input {
     width: 100%;
     height: 60px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  input::placeholder {
+    color:#C7C7C7;
   }
 }
